@@ -1,0 +1,56 @@
+** Drc report for /home/t800/Dropbox/Kicad/LoTaipan2/lotaipan.kicad_pcb **
+** Created on 2016-09-13 22:34:39 **
+
+** Found 3 DRC errors **
+ErrType(19): Pad nahe Pad
+    @ (150.142 mm,131.064 mm): Pad auf Top, Bottom, Intern, Keine Kupferfläche von P4
+    @ (150.742 mm,130.538 mm): Pad 1 auf Top, Keine Kupferfläche von P4
+ErrType(19): Pad nahe Pad
+    @ (153.342 mm,130.538 mm): Pad 5 auf Top, Keine Kupferfläche von P4
+    @ (153.939 mm,131.066 mm): Pad auf Top, Bottom, Intern, Keine Kupferfläche von P4
+ErrType(4): Leiterbahn nahe Pad
+    @ (158.657 mm,123.388 mm): Leiterbahn 0.300 mm, Netz [] (0) auf Lage Top, Länge: 0.750 mm
+    @ (157.902 mm,123.698 mm): Pad 1 auf Top, Keine Kupferfläche von SW_USR1
+
+** Found 13 unconnected pads **
+ErrType(2): Nicht verbundene Pads
+    @ (101.242 mm,133.078 mm): Pad 3 auf Top, Bottom, Intern, Keine Kupferfläche von P2 net +3V3
+    @ (101.570 mm,122.550 mm): Pad 4 auf Top, Keine Kupferfläche von U6
+ErrType(2): Nicht verbundene Pads
+    @ (154.052 mm,114.384 mm): Pad 64 auf Top, Keine Kupferfläche von U2 net +3V3
+    @ (152.002 mm,123.934 mm): Pad 48 auf Top, Keine Kupferfläche von U2
+ErrType(2): Nicht verbundene Pads
+    @ (152.002 mm,123.934 mm): Pad 48 auf Top, Keine Kupferfläche von U2 net +3V3
+    @ (142.452 mm,121.884 mm): Pad 32 auf Top, Keine Kupferfläche von U2
+ErrType(2): Nicht verbundene Pads
+    @ (139.342 mm,129.580 mm): Pad 1 auf Top, Keine Kupferfläche von R1 net GND
+    @ (138.792 mm,121.648 mm): Pad 2 auf Top, Keine Kupferfläche von C7
+ErrType(2): Nicht verbundene Pads
+    @ (108.862 mm,133.078 mm): Pad 6 auf Top, Bottom, Intern, Keine Kupferfläche von P2 net GND
+    @ (103.782 mm,133.078 mm): Pad 4 auf Top, Bottom, Intern, Keine Kupferfläche von P2
+ErrType(2): Nicht verbundene Pads
+    @ (103.782 mm,133.078 mm): Pad 4 auf Top, Bottom, Intern, Keine Kupferfläche von P2 net GND
+    @ (96.162 mm,133.078 mm): Pad 1 auf Top, Bottom, Intern, Keine Kupferfläche von P2
+ErrType(2): Nicht verbundene Pads
+    @ (122.174 mm,126.081 mm): Pad 3 auf Top, Keine Kupferfläche von U5 net GND
+    @ (123.848 mm,119.362 mm): Pad 2 auf Top, Keine Kupferfläche von C14
+ErrType(2): Nicht verbundene Pads
+    @ (165.100 mm,123.698 mm): Pad 2 auf Top, Keine Kupferfläche von SW_USR1 net GND
+    @ (165.100 mm,117.729 mm): Pad 2 auf Top, Keine Kupferfläche von SW_RST_LORA1
+ErrType(2): Nicht verbundene Pads
+    @ (165.100 mm,117.729 mm): Pad 2 auf Top, Keine Kupferfläche von SW_RST_LORA1 net GND
+    @ (165.143 mm,111.506 mm): Pad 2 auf Top, Keine Kupferfläche von SW_RST1
+ErrType(2): Nicht verbundene Pads
+    @ (165.143 mm,111.506 mm): Pad 2 auf Top, Keine Kupferfläche von SW_RST1 net GND
+    @ (163.392 mm,105.688 mm): Pad G1 auf Top, Keine Kupferfläche von P1
+ErrType(2): Nicht verbundene Pads
+    @ (157.122 mm,110.726 mm): Pad 1 auf Top, Keine Kupferfläche von C18 net NRST
+    @ (157.945 mm,111.506 mm): Pad 1 auf Top, Keine Kupferfläche von SW_RST1
+ErrType(2): Nicht verbundene Pads
+    @ (157.902 mm,117.729 mm): Pad 1 auf Top, Keine Kupferfläche von SW_RST_LORA1 net RST_LORA
+    @ (99.972 mm,117.838 mm): Pad 32 auf Top, Keine Kupferfläche von U1
+ErrType(2): Nicht verbundene Pads
+    @ (157.902 mm,123.698 mm): Pad 1 auf Top, Keine Kupferfläche von SW_USR1 net Net-(R25-Pad2)
+    @ (157.006 mm,119.489 mm): Pad 2 auf Top, Keine Kupferfläche von R25
+
+** End of Report **

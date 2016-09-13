@@ -1,0 +1,35 @@
+** Drc report for /home/t800/Dropbox/Kicad/LoTaipan2/lotaipan.kicad_pcb **
+** Created on 2016-09-11 17:09:31 **
+
+** Found 4 DRC errors **
+ErrType(19): Pad nahe Pad
+    @ (-3.599 mm,0.000 mm): Pad 1 auf Top, Keine Kupferfläche von SW_RST_LORA1
+    @ (-3.599 mm,0.000 mm): Pad 1 auf Top, Keine Kupferfläche von SW_RST1
+ErrType(19): Pad nahe Pad
+    @ (-3.599 mm,0.000 mm): Pad 1 auf Top, Keine Kupferfläche von SW_RST1
+    @ (-3.599 mm,0.000 mm): Pad 1 auf Top, Keine Kupferfläche von SW_USR1
+ErrType(19): Pad nahe Pad
+    @ (150.142 mm,131.064 mm): Pad auf Top, Bottom, Intern, Keine Kupferfläche von P4
+    @ (150.742 mm,130.538 mm): Pad 1 auf Top, Keine Kupferfläche von P4
+ErrType(19): Pad nahe Pad
+    @ (153.342 mm,130.538 mm): Pad 5 auf Top, Keine Kupferfläche von P4
+    @ (153.939 mm,131.066 mm): Pad auf Top, Bottom, Intern, Keine Kupferfläche von P4
+
+** Found 5 unconnected pads **
+ErrType(2): Nicht verbundene Pads
+    @ (101.570 mm,122.550 mm): Pad 4 auf Top, Keine Kupferfläche von U6 net +3V3
+    @ (101.242 mm,133.078 mm): Pad 3 auf Top, Bottom, Intern, Keine Kupferfläche von P2
+ErrType(2): Nicht verbundene Pads
+    @ (3.599 mm,0.000 mm): Pad 2 auf Top, Keine Kupferfläche von SW_USR1 net GND
+    @ (88.287 mm,104.933 mm): Pad 2 auf Top, Keine Kupferfläche von J2
+ErrType(2): Nicht verbundene Pads
+    @ (-3.599 mm,0.000 mm): Pad 1 auf Top, Keine Kupferfläche von SW_RST1 net NRST
+    @ (111.402 mm,130.988 mm): Pad 1 auf Top, Keine Kupferfläche von R22
+ErrType(2): Nicht verbundene Pads
+    @ (-3.599 mm,0.000 mm): Pad 1 auf Top, Keine Kupferfläche von SW_RST_LORA1 net RST_LORA
+    @ (99.972 mm,117.838 mm): Pad 32 auf Top, Keine Kupferfläche von U1
+ErrType(2): Nicht verbundene Pads
+    @ (-3.599 mm,0.000 mm): Pad 1 auf Top, Keine Kupferfläche von SW_USR1 net Net-(R25-Pad2)
+    @ (157.006 mm,119.489 mm): Pad 2 auf Top, Keine Kupferfläche von R25
+
+** End of Report **
