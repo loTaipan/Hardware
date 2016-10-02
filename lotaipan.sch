@@ -1,47 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:ab2_7segment
-LIBS:ab2_audio
-LIBS:ab2_buffer
-LIBS:ab2_capacitor
-LIBS:ab2_connectivity
-LIBS:ab2_dac
-LIBS:ab2_diode
-LIBS:ab2_gpio_expansion
-LIBS:ab2_header
-LIBS:ab2_idc
-LIBS:ab2_inductor
-LIBS:ab2_input_devices
-LIBS:ab2_jumper
-LIBS:ab2_lcd
-LIBS:ab2_led
-LIBS:ab2_memory
-LIBS:ab2_opamp
-LIBS:ab2_pot
-LIBS:ab2_power
-LIBS:ab2_regulator
-LIBS:ab2_relay
-LIBS:ab2_resistor
-LIBS:ab2_sensor
-LIBS:ab2_stepper
-LIBS:ab2_supply
-LIBS:ab2_terminal_block
-LIBS:ab2_test
-LIBS:ab2_transistor
-LIBS:ab2_uC
-LIBS:ab2_usb
-LIBS:ab2_xtal
-LIBS:T_various
-LIBS:w_analog
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_logic
-LIBS:w_memory
-LIBS:w_microcontrollers
-LIBS:w_opto
-LIBS:w_relay
-LIBS:w_rtx
-LIBS:w_transistor
-LIBS:w_vacuum
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:Symbols_EN60617_13Mar2013
 LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
@@ -220,7 +177,7 @@ L C C13
 U 1 1 5710EF6C
 P 1100 9200
 F 0 "C13" H 1125 9300 50  0000 L CNN
-F 1 "4u7" H 1125 9100 50  0000 L CNN
+F 1 "1u" H 1125 9100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 1138 9050 50  0001 C CNN
 F 3 "" H 1100 9200 50  0000 C CNN
 	1    1100 9200
@@ -229,61 +186,61 @@ $EndComp
 $Comp
 L C C15
 U 1 1 5710F017
-P 1600 9200
-F 0 "C15" H 1625 9300 50  0000 L CNN
-F 1 "100n" H 1625 9100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 1638 9050 50  0001 C CNN
-F 3 "" H 1600 9200 50  0000 C CNN
-	1    1600 9200
+P 2350 9200
+F 0 "C15" H 2375 9300 50  0000 L CNN
+F 1 "100n" H 2375 9100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2388 9050 50  0001 C CNN
+F 3 "" H 2350 9200 50  0000 C CNN
+	1    2350 9200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C16
 U 1 1 5710F057
-P 1850 9200
-F 0 "C16" H 1875 9300 50  0000 L CNN
-F 1 "100n" H 1875 9100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 1888 9050 50  0001 C CNN
-F 3 "" H 1850 9200 50  0000 C CNN
-	1    1850 9200
+P 2600 9200
+F 0 "C16" H 2625 9300 50  0000 L CNN
+F 1 "100n" H 2625 9100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2638 9050 50  0001 C CNN
+F 3 "" H 2600 9200 50  0000 C CNN
+	1    2600 9200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C17
 U 1 1 5710F0A2
+P 2850 9200
+F 0 "C17" H 2875 9300 50  0000 L CNN
+F 1 "100n" H 2875 9100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2888 9050 50  0001 C CNN
+F 3 "" H 2850 9200 50  0000 C CNN
+	1    2850 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 5710F127
 P 2100 9200
-F 0 "C17" H 2125 9300 50  0000 L CNN
+F 0 "C14" H 2125 9300 50  0000 L CNN
 F 1 "100n" H 2125 9100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 2138 9050 50  0001 C CNN
 F 3 "" H 2100 9200 50  0000 C CNN
 	1    2100 9200
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C14
-U 1 1 5710F127
-P 1350 9200
-F 0 "C14" H 1375 9300 50  0000 L CNN
-F 1 "100n" H 1375 9100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 1388 9050 50  0001 C CNN
-F 3 "" H 1350 9200 50  0000 C CNN
-	1    1350 9200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	950  9050 2300 9050
+	950  9050 3050 9050
 Connection ~ 1100 9050
-Connection ~ 1350 9050
-Connection ~ 1600 9050
-Connection ~ 1850 9050
-Wire Wire Line
-	1100 9350 2100 9350
-Connection ~ 1350 9350
-Connection ~ 1600 9350
-Connection ~ 1850 9350
-Text GLabel 2300 9050 2    60   Output ~ 0
-VDD
 Connection ~ 2100 9050
+Connection ~ 2350 9050
+Connection ~ 2600 9050
+Wire Wire Line
+	1100 9350 2850 9350
+Connection ~ 2100 9350
+Connection ~ 2350 9350
+Connection ~ 2600 9350
+Text GLabel 3050 9050 2    60   Output ~ 0
+VDD
+Connection ~ 2850 9050
 Connection ~ 1100 9350
 Text GLabel 950  9800 0    60   Input ~ 0
 +3V3
@@ -414,10 +371,10 @@ F 3 "" V 11450 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND-RESCUE-LoRa_Stuff #PWR01
+L GND-RESCUE-LoRa_Stuff #PWR3
 U 1 1 5711B1EE
 P 11600 6900
-F 0 "#PWR01" H 11600 6650 50  0001 C CNN
+F 0 "#PWR3" H 11600 6650 50  0001 C CNN
 F 1 "GND" H 11600 6750 50  0000 C CNN
 F 2 "" H 11600 6900 50  0000 C CNN
 F 3 "" H 11600 6900 50  0000 C CNN
@@ -425,10 +382,10 @@ F 3 "" H 11600 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-LoRa_Stuff #PWR02
+L GND-RESCUE-LoRa_Stuff #PWR2
 U 1 1 5711B53D
 P 11200 6700
-F 0 "#PWR02" H 11200 6450 50  0001 C CNN
+F 0 "#PWR2" H 11200 6450 50  0001 C CNN
 F 1 "GND" H 11200 6550 50  0000 C CNN
 F 2 "" H 11200 6700 50  0000 C CNN
 F 3 "" H 11200 6700 50  0000 C CNN
@@ -525,10 +482,10 @@ F 3 "" V 6600 7250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND-RESCUE-LoRa_Stuff #PWR03
+L GND-RESCUE-LoRa_Stuff #PWR1
 U 1 1 5711F4EF
 P 6800 7700
-F 0 "#PWR03" H 6800 7450 50  0001 C CNN
+F 0 "#PWR1" H 6800 7450 50  0001 C CNN
 F 1 "GND" H 6800 7550 50  0000 C CNN
 F 2 "" H 6800 7700 50  0000 C CNN
 F 3 "" H 6800 7700 50  0000 C CNN
@@ -601,7 +558,7 @@ L R R13
 U 1 1 571A0665
 P 6350 6900
 F 0 "R13" V 6430 6900 50  0000 C CNN
-F 1 "560" V 6350 6900 50  0000 C CNN
+F 1 "330" V 6350 6900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 6280 6900 50  0001 C CNN
 F 3 "" H 6350 6900 50  0000 C CNN
 	1    6350 6900
@@ -1273,7 +1230,7 @@ Text GLabel 13900 7600 0    60   Input ~ 0
 PB_15
 Text GLabel 13900 5200 0    60   Input ~ 0
 PC_0
-Text GLabel 4700 9200 2    60   Input ~ 0
+Text GLabel 4800 9700 2    60   Input ~ 0
 PC_1
 Text GLabel 13900 5300 0    60   Input ~ 0
 PC_2
@@ -1308,7 +1265,7 @@ Wire Notes Line
 	550  5950 3750 5950
 Wire Notes Line
 	550  11100 550  5950
-Text GLabel 3650 9200 0    60   Input ~ 0
+Text GLabel 3750 9700 0    60   Input ~ 0
 +3V3_S
 $Comp
 L CONN_01X25 P3
@@ -1349,11 +1306,11 @@ F 3 "" H 8750 8050 50  0000 C CNN
 $EndComp
 Connection ~ 9050 8200
 Connection ~ 8750 7900
-Text GLabel 3700 9950 0    60   Input ~ 0
+Text GLabel 3800 10450 0    60   Input ~ 0
 +3V3_LORA
-Text GLabel 4750 10150 2    60   Input ~ 0
+Text GLabel 4850 10650 2    60   Input ~ 0
 +3V3
-Text GLabel 4750 9950 2    60   Input ~ 0
+Text GLabel 4850 10450 2    60   Input ~ 0
 PC_4
 Wire Notes Line
 	3750 5950 3750 6600
@@ -1381,7 +1338,7 @@ L R R10
 U 1 1 578F080B
 P 6350 6600
 F 0 "R10" V 6430 6600 50  0000 C CNN
-F 1 "560" V 6350 6600 50  0000 C CNN
+F 1 "470" V 6350 6600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 6280 6600 50  0001 C CNN
 F 3 "" H 6350 6600 50  0000 C CNN
 	1    6350 6600
@@ -1484,7 +1441,7 @@ L R R15
 U 1 1 57BA2DFE
 P 6350 7600
 F 0 "R15" V 6430 7600 50  0000 C CNN
-F 1 "560" V 6350 7600 50  0000 C CNN
+F 1 "100" V 6350 7600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 6280 7600 50  0001 C CNN
 F 3 "" H 6350 7600 50  0000 C CNN
 	1    6350 7600
@@ -1530,43 +1487,84 @@ $EndComp
 $Comp
 L MIC94091YC6 U6
 U 1 1 57D57CD7
-P 3700 9950
-F 0 "U6" H 3950 10100 60  0000 C CNN
-F 1 "MIC94091YC6" H 4200 9600 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SC-70-6" H 4550 8400 60  0001 C CNN
-F 3 "" H 4550 8400 60  0001 C CNN
-	1    3700 9950
+P 3800 10450
+F 0 "U6" H 4050 10600 60  0000 C CNN
+F 1 "MIC94091YC6" H 4300 10100 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SC-70-6" H 4650 8900 60  0001 C CNN
+F 3 "" H 4650 8900 60  0001 C CNN
+	1    3800 10450
 	1    0    0    -1  
 $EndComp
 $Comp
 L MIC94091YC6 U5
 U 1 1 57D57F90
-P 3650 9200
-F 0 "U5" H 3900 9350 60  0000 C CNN
-F 1 "MIC94091YC6" H 4150 8850 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SC-70-6" H 4500 7650 60  0001 C CNN
-F 3 "" H 4500 7650 60  0001 C CNN
-	1    3650 9200
+P 3750 9700
+F 0 "U5" H 4000 9850 60  0000 C CNN
+F 1 "MIC94091YC6" H 4250 9350 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SC-70-6" H 4600 8150 60  0001 C CNN
+F 3 "" H 4600 8150 60  0001 C CNN
+	1    3750 9700
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 10050 0    60   Input ~ 0
+Text GLabel 3800 10550 0    60   Input ~ 0
 GND
-Text GLabel 3700 10150 0    60   Input ~ 0
+Text GLabel 3800 10650 0    60   Input ~ 0
 GND
-Text GLabel 4750 10050 2    60   Input ~ 0
+Text GLabel 4850 10550 2    60   Input ~ 0
 GND
-Text GLabel 4700 9400 2    60   Input ~ 0
+Text GLabel 4800 9900 2    60   Input ~ 0
 +3V3
-Text GLabel 3650 9300 0    60   Input ~ 0
+Text GLabel 3750 9800 0    60   Input ~ 0
 GND
-Text GLabel 3650 9400 0    60   Input ~ 0
+Text GLabel 3750 9900 0    60   Input ~ 0
 GND
-Text GLabel 4700 9300 2    60   Input ~ 0
+Text GLabel 4800 9800 2    60   Input ~ 0
 GND
 Text Notes 6300 6300 0    60   ~ 0
 LED Vorwiderstände
 Wire Wire Line
 	10700 6100 11200 6100
 Text Notes 1250 9550 0    60   ~ 0
-1u und 100n pro pin
+1u und 100n pro VCC pin
+$Comp
+L C C21
+U 1 1 57F22FFA
+P 1350 9200
+F 0 "C21" H 1375 9300 50  0000 L CNN
+F 1 "1u" H 1375 9100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 1388 9050 50  0001 C CNN
+F 3 "" H 1350 9200 50  0000 C CNN
+	1    1350 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C22
+U 1 1 57F23852
+P 1600 9200
+F 0 "C22" H 1625 9300 50  0000 L CNN
+F 1 "1u" H 1625 9100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 1638 9050 50  0001 C CNN
+F 3 "" H 1600 9200 50  0000 C CNN
+	1    1600 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 57F2393F
+P 1850 9200
+F 0 "C23" H 1875 9300 50  0000 L CNN
+F 1 "1u" H 1875 9100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 1888 9050 50  0001 C CNN
+F 3 "" H 1850 9200 50  0000 C CNN
+	1    1850 9200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 9350
+Connection ~ 1600 9350
+Connection ~ 1850 9350
+Connection ~ 1850 9050
+Connection ~ 1600 9050
+Connection ~ 1350 9050
+Text Notes 6950 7300 0    60   ~ 0
+Vorwiderstand LED orange
 $EndSCHEMATC

@@ -1465,21 +1465,6 @@ Wire Notes Line
 	9450 1550 9450 1650
 Text Notes 9250 1500 0    60   ~ 0
 Pull downs for accelerometer, R16 for Boot1
-$Comp
-L R R7
-U 1 1 57B9E679
-P 10900 6100
-F 0 "R7" V 10980 6100 50  0000 C CNN
-F 1 "560" V 10900 6100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10830 6100 50  0001 C CNN
-F 3 "" H 10900 6100 50  0000 C CNN
-	1    10900 6100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11050 6100 11200 6100
-Wire Wire Line
-	10700 6100 10750 6100
 Wire Wire Line
 	6700 6600 6800 6600
 Connection ~ 6800 6900
@@ -1578,4 +1563,10 @@ Text GLabel 3650 9400 0    60   Input ~ 0
 GND
 Text GLabel 4700 9300 2    60   Input ~ 0
 GND
+Text Notes 6300 6300 0    60   ~ 0
+LED Vorwiderstände
+Wire Wire Line
+	10700 6100 11200 6100
+Text Notes 1250 9550 0    60   ~ 0
+1u und 100n pro pin
 $EndSCHEMATC
